@@ -59,7 +59,7 @@ as.numeric(arma_garch_model@fit$coef["omega"]/(1 - arma_garch_model@fit$coef["al
 ##======================================================================
 
 ##----------------------------------------------------------------
-## Function of Computing the Z statistic of each normal observation in train set
+## Function of Computing the Z Statistic of Each Normal Observation in Train Set
 ##----------------------------------------------------------------
 Z_stat = function(M, N, Train_ratio, data)
 {
@@ -280,7 +280,7 @@ AUC = function(Detect_Result, data, Train_ratio, N)
 ## Bagging Strategy for anomaly Detection
 ##----------------------------------------------------------------
 ##----------------------------------------------------------------
-## Different M for Bagging, make sure that the first M observation are not anomalys
+## Different M for Bagging. Make Sure That the First M Observation Are Not Anomalies
 ##----------------------------------------------------------------
 Extend_Ratio = 0.05
 
